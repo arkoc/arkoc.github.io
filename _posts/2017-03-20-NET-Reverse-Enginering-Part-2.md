@@ -12,14 +12,18 @@ Ok, Let's do it.
 
 Do you know what is fun in RE? It's like playing chess with a developer of the program. 
 It is necessary to guess his steps or start thinking like a developer. 
+
 In my case it isn't a just ordinary developer, it is an author of strong crypter. 
-Does it make sense? If you answered yes, I have some bad news for you, you are talking with text.
+
+Does it make sense? 
+If you answered yes, I have some bad news for you, you are talking with text.
 
 <!--more-->
 
 Let's run the application and visually observe when activation occurs. 
 I will not show a screenshot of this, but activation message box shows right after the form is loaded/rendered. 
 After clicking ok program exits. 
+
 Stop reading here, and start thinking, where can it be done? ( You really stopped reading?
 I think you are getting this text too serious )
 
@@ -28,7 +32,7 @@ Of course, it will be done in `OnLoad` event. Go Search it: DnSpy > Edit > Searc
 ![onload event](http://arkoc.github.io/images/re_part2_1.png)
 
 Here it is. Now lets find usage of `VerifyTypeAttributes` function. 
-( Funny name yes?) Right click on the function name and click analyze.
+(Funny name yes?) Right click on the function name and click analyze.
 
 ![onload function analyse](http://arkoc.github.io/images/re_part2_2.png)
 
