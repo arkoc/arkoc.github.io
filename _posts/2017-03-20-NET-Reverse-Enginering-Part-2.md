@@ -10,12 +10,12 @@ In this part, we will try to remove activation checking.
 
 Ok, Let's do it. 
 
-<!--more-->
-
 Do you know what is fun in RE? It's like playing chess with a developer of the program. 
 It is necessary to guess his steps or start thinking like a developer. 
 In my case it isn't a just ordinary developer, it is an author of strong crypter. 
 Does it make sense? If you answered yes, I have some bad news for you, you are talking with text.
+
+<!--more-->
 
 Let's run the application and visually observe when activation occurs. 
 I will not show a screenshot of this, but activation message box shows right after the form is loaded/rendered. 
