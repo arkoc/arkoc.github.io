@@ -54,5 +54,5 @@ Here is a [Music](https://www.youtube.com/watch?v=psjWrGkAil4).
 
 I write some random shit in twitter to.
 
-<a href="https://twitter.com/aram_koch" class="twitter-follow-button" data-show-count="false">Follow @aram_koch</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a href="https://twitter.com/aram_koch" class="twitter-follow-button" data-show-count="false">Follow @aram_koch</a>
 
