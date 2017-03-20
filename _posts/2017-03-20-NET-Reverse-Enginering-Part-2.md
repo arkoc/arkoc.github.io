@@ -52,7 +52,6 @@ Now let me alone.
 
 Here is a [Music](https://www.youtube.com/watch?v=psjWrGkAil4).
 
-I write some random shit in twitter to.
-
+I write some random shit in twitter too.
 <a href="https://twitter.com/aram_koch" class="twitter-follow-button" data-show-count="false">Follow @aram_koch</a>
 
