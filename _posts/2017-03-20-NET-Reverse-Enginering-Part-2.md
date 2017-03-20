@@ -4,9 +4,13 @@ title: .NET Reverse Enginering - Part 2
 ---
 
 In [Part 1](http://codepool.me/NET-Reverse-Enginering-Part-1/) we cleaned our protected assembly and now it 
-is decompilable and runnable. In this part, we will try to remove activation checking.
+is decompilable and runnable. 
+
+In this part, we will try to remove activation checking.
 
 Ok, Let's do it. 
+
+<!--more-->
 
 Do you know what is fun in RE? It's like playing chess with a developer of the program. 
 It is necessary to guess his steps or start thinking like a developer. 
