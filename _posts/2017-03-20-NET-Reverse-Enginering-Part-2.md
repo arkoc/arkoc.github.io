@@ -49,6 +49,7 @@ Modify selected instructions and place `nop` instead.
 Run the application again and boonzaaay, now you can reopen your incognito mode browser tab again.
 
 Now let me alone.
+
 Here is a [Music](https://www.youtube.com/watch?v=psjWrGkAil4).
 
 
