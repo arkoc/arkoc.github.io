@@ -13,7 +13,7 @@ Ok, Let's do it.
 Do you know what is fun in RE? It's like playing chess with a developer of the program. 
 It is necessary to guess his steps or start thinking like a developer. 
 
-In my case it isn't a just ordinary developer, it is an author of strong crypter. 
+In my case it isn't just a ordinary developer, it is an author of a strong crypter. 
 
 Does it make sense? 
 If you answered yes, I have some bad news for you, you are talking with text.
