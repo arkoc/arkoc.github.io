@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Building UWP file manager with fluent design in a month
@@ -13,7 +12,7 @@ How did it start? My friend informed me about [Windows Developer Day Sweepstakes
 
 First, I created GitHub organization and a repo for kommander. Yeah, meat him, his name is kommander. We started developing and learning UWP platform in a row and parallelly adding features to issues list, that we think should be included in the first release. After 1,5-2 week of intensive development, we find out that we have approximately [40 issues/features] (https://github.com/kommanderapp/kmd-uwp/milestone/1) to fix/implement.  You know, if you are reading this text, it means that we handled this challenge. 
 
-What was fun?
+### What was fun?
 
 •    Fluent Design is awesome. You know, I am that kind of developers that spent hours to choose the right size for text-box, so Fluent Design is awesome. Any control you put, they look awesome, nothing to do with them.
 
@@ -24,7 +23,7 @@ What was fun?
 •    The fun thing was the development of the FluentKeybord (you can find it in Hotkey's tab in Settings page). I spent a whole night and 6 cups of coffee to make it happen. [@babgev](https://twitter.com/babgev)
 
 
-What was interesting?
+### What was interesting?
 
 •    `Windows.Storage` is an abstraction for files and folders, but it is part of UWP. Why? 
 
@@ -36,7 +35,7 @@ What was interesting?
 
 •    While working on kommander, I had to implement the following feature: while dragging an element over a tab header (in UWP terms it's a Pivot control), you can drop it there so your file will be moved to the folder contained in that target tab. Technically it meant that I should somehow subscribe to some events etc.... While doing it I encountered a strange exception while instantiating an object. Something that should be impossible. And when I posted a question about it in StackOverflow, I got an answer from an MSFT employee, that it was by design. By design dude? By design, the constructor is throwing an unintelligible exception? Well, I really think that's interesting. U+1F643 [@babgev](https://twitter.com/babgev)
 
-What was terrible?
+### What was terrible?
 
 •    I fucking didn't understand, what does it mean you need to get permission to the folder by opening it with FilePicker, are you serious? 
 
