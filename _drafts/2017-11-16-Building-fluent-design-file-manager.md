@@ -14,36 +14,25 @@ First, I created GitHub organization and a repo for kommander. Yeah, meat him, h
 
 ### What was fun?
 
-•    Fluent Design is awesome. You know, I am that kind of developers that spent hours to choose the right size for text-box, so Fluent Design is awesome. Any control you put, they look awesome, nothing to do with them.
-
-•    [Windows.Storage](https://docs.microsoft.com/en-us/uwp/api/windows.storage) abstraction is awesome. I guess it is one of best implementations of abstracting files and folders. ( Like IStorageFolder1, IStorageFodler2, very descriptive)
-
-•    [Windows Template Studio](https://github.com/Microsoft/WindowsTemplateStudio) rocks. It gives you a really good boost to get familiar with UWP. Thank you, guys.
-
-•    The fun thing was the development of the FluentKeybord (you can find it in Hotkey's tab in Settings page). I spent a whole night and 6 cups of coffee to make it happen. [@babgev](https://twitter.com/babgev)
+* Fluent Design is awesome. You know, I am that kind of developers that spent hours to choose the right size for text-box, so Fluent Design is awesome. Any control you put, they look awesome, nothing to do with them.
+* [Windows.Storage](https://docs.microsoft.com/en-us/uwp/api/windows.storage) abstraction is awesome. I guess it is one of best implementations of abstracting files and folders. ( Like IStorageFolder1, IStorageFodler2, very descriptive)
+* [Windows Template Studio](https://github.com/Microsoft/WindowsTemplateStudio) rocks. It gives you a really good boost to get familiar with UWP. Thank you, guys.
+* Development of the FluentKeybord (you can find it in Hotkey's tab in Settings page). I spent a whole night and 6 cups of coffee to make it happen. [@babgev](https://twitter.com/babgev)
 
 
 ### What was interesting?
-
-•    `Windows.Storage` is an abstraction for files and folders, but it is part of UWP. Why? 
-
-•    We believe that Microsoft will buy our explorer and replace the ugly one in Windows. 
-
-•    Kommander is about 6000 lines of code.
-
-•    I was planning to write incredible code that will blow your mind with his cleanness. Now it can blow your mind, but not for cleanness. 
-
-•    While working on kommander, I had to implement the following feature: while dragging an element over a tab header (in UWP terms it's a Pivot control), you can drop it there so your file will be moved to the folder contained in that target tab. Technically it meant that I should somehow subscribe to some events etc.... While doing it I encountered a strange exception while instantiating an object. Something that should be impossible. And when I posted a question about it in StackOverflow, I got an answer from an MSFT employee, that it was by design. By design dude? By design, the constructor is throwing an unintelligible exception? Well, I really think that's interesting. U+1F643 [@babgev](https://twitter.com/babgev)
+* `Windows.Storage` is an abstraction for files and folders, but it is part of UWP. Why? 
+* We believe that Microsoft will buy our explorer and replace the ugly one in Windows. 
+* Kommander is about 6000 lines of code.
+* I was planning to write incredible code that will blow your mind with his cleanness. Now it can blow your mind, but not for cleanness. 
+* While working on kommander, I had to implement the following feature: while dragging an element over a tab header (in UWP terms it's a Pivot control), you can drop it there so your file will be moved to the folder contained in that target tab. Technically it meant that I should somehow subscribe to some events etc.... While doing it I encountered a strange exception while instantiating an object. Something that should be impossible. And when I posted a question about it in StackOverflow, I got an answer from an MSFT employee, that it was by design. By design dude? By design, the constructor is throwing an unintelligible exception? Well, I really think that's interesting. U+1F643 [@babgev](https://twitter.com/babgev)
 
 ### What was terrible?
 
-•    I fucking didn't understand, what does it mean you need to get permission to the folder by opening it with FilePicker, are you serious? 
-
-•    Restarting VisualStudio while developing UWP application is an ordinary thing.
-
-•    Crashing VisualStudio? Thank you UWP.
-
-•    When my cigarettes run out while doing the fun part. [@babgev](https://twitter.com/babgev)
+* I fucking didn't understand, what does it mean you need to get permission to the folder by opening it with FilePicker, are you serious? 
+* Restarting VisualStudio while developing UWP application is an ordinary thing.
+* Crashing VisualStudio? Thank you UWP.
+* When my cigarettes run out while doing the fun part. [@babgev](https://twitter.com/babgev)
 
 
 I was listening to this music last month for hundreds of time. So, I wish same to you. [Here is it]( https://www.youtube.com/watch?v=3aLyiI2odhU)
