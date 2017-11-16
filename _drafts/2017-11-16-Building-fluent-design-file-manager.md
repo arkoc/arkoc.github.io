@@ -1,3 +1,4 @@
+
 --
 layout: post
 title: Building UWP file manager with fluent design in a month
@@ -36,5 +37,7 @@ First, I created GitHub organization and a repo for kommander. Yeah, meat him, h
 
 
 I was listening to this music last month for hundreds of time. So, I wish same to you. [Here is it]( https://www.youtube.com/watch?v=3aLyiI2odhU)
+
 I write some random shit on twitter too. [Follow @aram_koch](https://twitter.com/aram_koch)
+
 Meet Babken, he writes shit too. [Follow @babgev](https://twitter.com/babgev).
