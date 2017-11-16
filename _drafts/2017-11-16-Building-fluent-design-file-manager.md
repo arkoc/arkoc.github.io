@@ -1,4 +1,4 @@
----
+--
 layout: post
 title: Building UWP file manager with fluent design in a month
 ---
@@ -10,7 +10,7 @@ You think this is something horrible? Dumb asshole. I don’t understand, what i
 
 How did it start? My friend informed me about [Windows Developer Day Sweepstakes]( https://developer.microsoft.com/en-us/windows/projects/campaigns/windows-developer-day-sweepstakes) and, and have you seen prizes? “Custom Xbox controller with engraving” this was my motivation for starting development of just another file manager who believes he is the best in the world, like you, me and another guy next to you. Oh, sorry for calling file manager he, maybe she? Fuck this sexism, It…It!
 
-First, I created GitHub organization and a repo for kommander. Yeah, meat him, his name is kommander. We started developing and learning UWP platform in a row and parallelly adding features to issues list, that we think should be included in the first release. After 1,5-2 week of intensive development, we find out that we have approximately [40 issues/features] (https://github.com/kommanderapp/kmd-uwp/milestone/1) to fix/implement.  You know, if you are reading this text, it means that we handled this challenge. 
+First, I created GitHub organization and a repo for kommander. Yeah, meat him, his name is kommander. We started developing and learning UWP platform in a row and parallelly adding features to issues list, that we think should be included in the first release. After 1,5-2 week of intensive development, we find out that we have approximately [40 issues/features](https://github.com/kommanderapp/kmd-uwp/milestone/1) to fix/implement.  You know, if you are reading this text, it means that we handled this challenge. 
 
 ### What was fun?
 
