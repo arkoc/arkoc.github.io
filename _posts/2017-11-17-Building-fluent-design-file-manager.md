@@ -1,4 +1,3 @@
-
 --
 layout: post
 title: Building UWP file manager with fluent design in a month
