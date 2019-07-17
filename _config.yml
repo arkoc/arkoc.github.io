@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: CodePool
+name: BotInsane
 
 # Short bio or description (displayed in the header)
 description: Programming and a bit more
@@ -19,14 +19,14 @@ avatar: https://avatars2.githubusercontent.com/u/11096006
 footer-links:
   dribbble:
   email:
-  facebook: aram.ko4aryan
+  facebook:
   flickr:
   github: arkoc
   instagram:
-  linkedin: aram-kocharyan-432042b3
+  linkedin:
   pinterest:
   rss: rss
-  twitter: aram_koch
+  twitter: bot_insane
   stackoverflow: users/4810224/aram-kocharyan # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -41,7 +41,7 @@ google_analytics: UA-77904827-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://codepool.me
+url: http://bot-insane.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
