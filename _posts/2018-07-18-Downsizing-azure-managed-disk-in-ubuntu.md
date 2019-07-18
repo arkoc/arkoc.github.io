@@ -7,7 +7,7 @@ Unfurtunatly there is no built in way of downsizing managed disks in azure. So w
 
 CAUTION: Do this at your own risk. Althrought you will not lose any data, until you dont remove those disks, but recheck/verify each step during process.
 
-#### Connect to Host VM and modify fstab.
+### Connect to Host VM and modify fstab.
 
 Connect to host VM with SSH.
 Backup fstab
@@ -26,17 +26,17 @@ Remove them.
 
 Probabbly you should also stop any services that are using those drives.
 
-#### Stop Host VM and deatach managed disks.
+### Stop Host VM and deatach managed disks.
 
-#### Create new copy of deatached managed disks with prefered configurations
+### Create new copy of deatached managed disks with prefered configurations
 
 `az disk create -g beta -n disk-new-name --source disk-old-name --sku StandardSSD_LRS --size-gb 1023`
 
 This will create new disk with copiing data from old one.
 
-#### Attach newly created disks to Host VM.
+### Attach newly created disks to Host VM.
 
-#### Run Host VM.
+### Run Host VM.
 Connect with SSH.
 
 Now we need to mount new attached disks: https://docs.microsoft.com/en-us/azure/virtual-machines/linux/attach-disk-portal
