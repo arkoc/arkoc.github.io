@@ -25,7 +25,7 @@ Ok, our task is pretty simple. Create a virtual network for the production envir
 
 - [How to Create VPN Gateway to V-Net](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-point-to-site-resource-manager-portal)
 
-Don't you say you were expecting a huge useless novel about all these "how to"-s? Go and hit those links. Microsoft document ninjas did a really good job. Thank you, Microsoft. #mymicrosoft #microsoftloveslinux #microsoftloveslinkedin #microsoftlovesgithub #microsoftlovesnatasha #microsoftlovesyou
+Don't you say you were expecting a huge useless novel about all these "how to"-s? Go and hit those links. Microsoft document ninjas did a really good job. Thank you, Microsoft. [#mymicrosoft]() [#microsoftloveslinux]() [#microsoftloveslinkedin]() [#microsoftlovesgithub]() [#microsoftlovesnatasha]() [#microsoftlovesyou]()
 
 So let's go underwater to find those stones.
 
@@ -45,7 +45,7 @@ Virtual Networks works pretty stable. If you are clicking, knocking, swearing ch
 
 ### PostgreSQL Stone #1
 
-And yet another one. If you are a poor developer who doesn't want to instantly pay more than 50$ for the database, which is not going to be used at the start that much, you just suck. Yeah. You can't do that. Because [Support for VNet service endpoints is only for General Purpose and Memory Optimized servers.](https://docs.microsoft.com/en-us/azure/postgresql/concepts-limits#vnet-service-endpoints) #microsoftlovesnatashanotyou
+And yet another one. If you are a poor developer who doesn't want to instantly pay more than 50$ for the database, which is not going to be used at the start that much, you just suck. Yeah. You can't do that. Because [Support for VNet service endpoints is only for General Purpose and Memory Optimized servers.](https://docs.microsoft.com/en-us/azure/postgresql/concepts-limits#vnet-service-endpoints) [#microsoftlovesnatashanotyou]()
 
 ### PostgreSQL Stone #2
 
@@ -53,4 +53,4 @@ If PostgreSQL says something like this: "server is not configured to allow ipv6 
 
 ### VPN Gateway Half-Stone
 
-This one is not an underwater stone, but something that is still confusing for me. If you open V-Net subnets, you will see GatewaySubnet which has some address space for it, like: "10.7.0.0/24". I understand that if I connect to VPN I should receive from one of those addresses. But unfortunately no, I received something like "172.17.0.2". So there is another option which is affecting our IP. And that option is in Virtual Network Gateway resource, under User VPN configuration section, Address Pool. That's it. 
+This one is not an underwater stone, but something that is still confusing for me. If you open V-Net subnets, you will see GatewaySubnet which has some address space for it, like: "10.7.0.0/24". I understand that if I connect to VPN I should receive from one of those addresses. But unfortunately no, I received something like "172.17.0.2". So there is another option which is affecting our DHCP service. And that option is in Virtual Network Gateway resource, under User VPN configuration section, Address Pool. That's it. 
