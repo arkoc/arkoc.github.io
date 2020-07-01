@@ -41,15 +41,15 @@ Azure PostgreSQL Database is managed service. It is not technically joining your
 
 ### V-Net Integration Stone
 
-Virtual Networks works pretty stable. If you are clicking, knocking, swearing changing, and trying everything, so better consider that you can break it. In those situations just remove resources from v-net and then attach them back. In most scenarios, this helps to reset to starting position. This means, be CAREFUL when working with production virtual networks. Otherwise, great_business_service customers will see an error page for a couple of minutes. It is a disaster, no?
+Virtual Networks works pretty stable. If you are clicking, knocking, changing, swearing and trying everything, so better consider that you can break it. In those situations just remove resources from v-net and then re-attach them back. In most scenarios, this helps to reset to starting position. This means, be CAREFUL when working with virtual networks in production. Otherwise, great_business_service customers will see an error page for a couple of minutes. It is a disaster, no?
 
 ### PostgreSQL Stone #1
 
-And yet another one. If you are a poor developer who doesn't want to instantly pay more than 50$ for the database, which is not going to be used at the start that much, you just suck. Yeah. You can't do that. Because [Support for VNet service endpoints is only for General Purpose and Memory Optimized servers.](https://docs.microsoft.com/en-us/azure/postgresql/concepts-limits#vnet-service-endpoints) [#microsoftlovesnatashanotyou]()
+And yet another one. If you are a poor developer who doesn't want to instantly pay more than 50$ for the database, you just suck. Yeah. You can't do that. Because [Support for VNet service endpoints is only for General Purpose and Memory Optimized servers.](https://docs.microsoft.com/en-us/azure/postgresql/concepts-limits#vnet-service-endpoints) [#microsoftlovesnatashanotyou]()
 
 ### PostgreSQL Stone #2
 
-If PostgreSQL says something like this: "server is not configured to allow ipv6 connections" check credentials and make sure you have enabled SQL service endpoint enabled for the subnet from which you are connecting to the database.
+If PostgreSQL says something like this: "server is not configured to allow ipv6 connections" check credentials and make sure you have enabled SQL service endpoint for the subnet from which you are connecting to the database. Wired message for wrong credentials. Who gives a fuck about error messages?
 
 ### VPN Gateway Half-Stone
 
