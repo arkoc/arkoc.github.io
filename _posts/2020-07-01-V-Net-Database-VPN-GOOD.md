@@ -7,13 +7,13 @@ title: Azure, V-Net, Database, VPN, GOOD!
 
 The title is Pretty. Much. And explanatory. 
 
--- Who are we?
+\- Who are we?
 
--- We are developers!
+\- We are developers!
 
--- What we need? 
+\- What we need? 
 
--- Access to production databases!
+\- Access to production databases!
 
 Ok, our task is pretty simple. Create a virtual network for the production environment. Then create an Azure PostgresSQL Database and join it to v-net. And in the end, create VPN Gateway to this v-net so developers can get access to production databases through it. Sounds simple and straightforward. Let's start:
 
@@ -45,4 +45,4 @@ If PostgresSQL says something like this: "server is not configured to allow ipv6
 
 This one is not an underwater stone, but something that is still confusing for me. If you open V-Net subnets, you will see GatewaySubnet which has some address space for it, like: "10.7.0.0/24". I understand that if I connect to VPN I should receive from one of those addresses. But unfortunately no, I received something like "172.17.0.2". So there is another option which is affecting our IP. And that option is in Virtual Network Gateway resource, under User VPN configuration section, Address Pool. That's it. 
 
-Seems it. Thats what I remmembered.
+Seems it.
